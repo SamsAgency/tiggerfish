@@ -1,0 +1,38 @@
+.service-banner{
+    margin-top: 0px;
+    width: 100% !important;
+    background-image : linear-gradient(to bottom, rgba(0, 0, 0, 0.208), rgba(0, 0, 0, 0.379)), url(../../../assets/image\ \(5\).jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 55vh;
+    z-index: -1;
+    font-family: Monda;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.service-banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 55vh;
+    width: 100%;
+    margin: auto;
+    background: url(http://s14.directupload.net/images/111129/44ga9qid.png);
+}
+
+.service-banner-h2{
+    color: azure;
+    font-family: Monda;
+    font-size: 60px;
+}
+
+.service-banner-p{
+    color: azure;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}

@@ -1,0 +1,183 @@
+.welcome-adventure{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80vh;
+    margin-bottom: 10px;
+    min-height: 84.4vh;
+    /* flex-wrap: wrap; */
+}
+
+.welcomeadventureimage2 {
+    width: 70%;
+    z-index: 4;
+    position: relative;
+    bottom: 28%;
+    left: 28%;
+}
+
+.welcomehotel {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90vh;
+    margin-bottom: 10px;
+}
+
+.welcomehotelcolumn1{
+    width: 50%;
+    max-height: 100%;
+}
+
+.overlapingimages {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcomehotelimage1{
+    width: 70%;
+    z-index: 1;
+    background-position: center;
+    background-size: cover;
+}
+
+.welcomehotelimage2 {
+    width: 70%;
+    z-index: 4;
+    position: relative;
+    bottom: 39.4%;
+    left: 30%;
+}
+
+
+
+.welcomehotelcolumn2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+
+
+
+.smallwelcomeintro{
+    color: #375ba9;
+}
+
+.welcomehotelheader{
+    font-size: 50px;
+    font-family: 'Dosis', sans-serif;
+    color: #375ba9;
+    line-height: 0%;
+    filter: drop-shadow(0px 2px 7px rgba(0, 0, 0, 0.336));
+}
+
+.welcomehoteltext {
+    margin-left: 5px;
+}
+
+.welcomehotelbutton{
+    width: 200px;
+    font-size: 18px;
+    line-height: 0%;
+    padding: 20px;
+    color: #375ba9;
+    border-color: #375ba9;
+    border-radius: 20px;
+    background: transparent;
+    margin-left: 10px;
+}
+
+.welcomehotelbutton:hover{
+    background-color: #375ba9;
+    border-color: #375ba9;
+    color: white;
+    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.795);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px){
+    .welcomehotel{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        height: 100vh;
+    }
+    .welcomehotelcolumn1{
+        width: 100%;
+        position: static;
+        display: flex;
+    }
+    .overlapingimages{
+        position: static;
+        display: flex;
+        align-items: center;
+        
+    }
+    .welcomehotelimage1{
+        filter: drop-shadow(2px 5px 10px black);
+        border-radius: 5px;
+        height: 45vh
+    }
+
+    .welcomehotelimage2{
+        display: none;
+    }
+
+    .welcomehotelcolumn2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .thecontent{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .welcomehotelheader{
+        font-size: 40px;
+        line-height: 0%;
+        margin-top: 30px;
+        font-family: 'Dosis', sans-serif;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .welcomehotelbutton{
+        position: relative;
+        top: 25px;
+    }
+
+}
+
+@media screen and (max-width: 900px){
+    .welcome-adventure{
+        display: flex;
+        flex-direction: column;
+        flex-flow: column;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        height: 100vh;
+        justify-content: center;
+    }
+    .welcomeadventureimage2{
+        display: none
+    }
+}

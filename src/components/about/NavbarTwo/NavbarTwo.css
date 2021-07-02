@@ -1,0 +1,50 @@
+.navbar-two{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #375ba9;
+    padding: 0px;
+    max-height: 60px;
+}
+
+.navbar-two-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    margin: auto;
+}
+
+.logo-2{
+    width: 41px;
+    height: 40px;
+    padding: 3px;
+    border-radius: 50%;
+    box-shadow: rgb(143, 141, 141) 0px 4px 6px;
+    background-color: white;
+}
+
+.navbar-ul{
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navlink{
+    width: 12vw;
+    color: white;
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+.navlink:hover{
+    color: #00DB2B;
+}
+
+.navlink:focus{
+    color: #00DB2B;
+}

@@ -1,0 +1,39 @@
+.about-banner{
+    margin-top: 0px;
+    background-image : linear-gradient(to bottom, rgba(0, 0, 0, 0.208), rgba(0, 0, 0, 0.379)), url(../../../assets/image\ \(8\).jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 55vh;
+    z-index: -1;
+    font-family: Monda;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 100vw !important;
+    animation-name: about-banner;
+    animation-duration: 2s ;
+    transition-timing-function: ease-in-out;
+}
+@keyframes about-banner{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.about-banner-h2{
+    color: azure;
+    font-size: 50px;
+    margin: auto;
+    font-family: Monda;
+}
+
+.about-banner-p{
+    font-size: 20px;
+    margin: auto;
+    color: azure;
+}
