@@ -1,6 +1,6 @@
 import React from 'react'
 import './web.css'
-import Plane from '../../../assets/image (7).jpg'
+import Plane from '../../../assets/Recipee 4.PNG'
 
 const Web = () => {
     return (
@@ -11,30 +11,34 @@ const Web = () => {
             </div>
             <div className="l-section-content">
                 <div className="l-content-image">
-                    <img className="l-image" src={Plane} alt="Air plane for logistics"/> 
+                    <img className="l-image" src={Plane} alt="A recipe website created by tiggerfish technology"/> 
                 </div>
 
                 <div className="l-content-content">
                     <p className="l-content-p">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the
-                        1500s, when an unknown printer took a galley of type and scrambled it to
-                        make a type specimen book. It has survived not only five centuries, but
-                        also the leap into electronic typesetting, remaining essentially
-                        unchanged. It was popularised in the 1960s with the release of Letraset
-                        sheets containing Lorem Ipsum passages, and more recently with desktop
-                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        When it comes to programing/coding no one does it better than us. With us being experts in languages /frameworks like 
+                        React(jsx, css), React Native, Express, Mongo Db, java, Django (python) and DRF (Django Rest Framework), you are
+                        100% guaranteed that you will get your start up within time and as custom as you will want it to be. In points, 
+                        this unit consist of ;
                     </p>
                     <ul className="l-content-ul">
                         <li className="l-content-li">
-                            Partnerships with an exclusive network of partners worldwide to offer end to end services
+                            Web design and development
                         </li>
                         <li className="l-content-li">
-                            Competitive rates – we utilize hundreds of airline flights daily and you don’t have to be limited 
-                            to designated pickup or delivery times;
+                            App development
                         </li>
                         <li className="l-content-li">
-                            Door-to-door, Airport-to-Door, Airport-to-Airport;
+                            Backend development Express/node/NoSQL or Django/Python/SQL
+                        </li>
+                        <li className="l-content-li">
+                            Desktop development with Electron js
+                        </li>
+                        <li className="l-content-li">
+                            Game development with unity
+                        </li>
+                        <li className="l-content-li">
+                            Cyber Security
                         </li>
                     </ul>
                 </div>

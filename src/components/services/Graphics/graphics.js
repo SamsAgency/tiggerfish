@@ -1,5 +1,5 @@
 import React from 'react'
-import Ship from '../../../assets/image (6).jpg'
+import Ship from '../../../assets/infographics-nature.png'
 
 const Graphics = () => {
     return (
@@ -11,37 +11,34 @@ const Graphics = () => {
             <div className="l-section-content">
                 <div className="l-content-content">
                     <p className="l-content-p">
-                        To give our clients the flexibility to meet their custom logistics needs at the most competitive pricing, 
-                        we work with an established network of over ten different ocean carrier partners. Choose either FCL or LCL service 
-                        with a wide selection of air or ocean carriers. We constantly track the shipment while it transit, 
-                        so you know where it is at all times.
+                        When it comes to graphic design, we have a specialized team of professionals that works with logos, 
+                        flyers, posters, publications like magazines, newspapers, ebook.
+                        We also help to make ideal color combinations in branding your organization. In a 
+                        nutshell, we design/model;
                     </p>
                     <ul className="l-content-ul">
                         <li className="l-content-li">
-                            Complete FCL and LCL services
+                            Logos, branding, UI and UX layouts/wireframe
                         </li>
                         <li className="l-content-li">
-                            FCL contract management
+                            Business cards, bronchures, flyers
                         </li>
                         <li className="l-content-li">
-                            LCL consolidation / deconsolidation
+                            Magazines, newspaper & ebook
                         </li>
                         <li className="l-content-li">
-                            Project cargo services
+                            Infographics, Icon creation, data representation, presentation, etc
                         </li>
                         <li className="l-content-li">
-                            Oversized cargo services
+                            Architecture models, house plans, landscape rendering etc
                         </li>
                         <li className="l-content-li">
-                            Garment On Hanger (GOH) services;
-                        </li>
-                        <li className="l-content-li">
-                            Insurance Services
+                            Game character models, game environment, lighting etc
                         </li>
                     </ul>
                 </div>
                 <div className="l-content-image">
-                    <img className="l-image" src={Ship} alt="Air plane for logistics"/> 
+                    <img className="l-image" src={Ship} alt="Tiggerfish infographics sample"/> 
                 </div>
             </div>
         </div>

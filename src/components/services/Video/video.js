@@ -1,47 +1,45 @@
 import React from 'react'
-import Ship from '../../../assets/image (1).jpg'
+import Ship from '../../../assets/film.jpg'
 
 const Video = () => {
     return (
         <div className="air" id="ocean">
             <div className="l-section-upper">
-                <h3 className="l-section-image-h4">Animations & Video</h3>
-                <p className="l-section-p">What Our Sea freight services entails </p>
+                <h3 className="l-section-image-h4">Multimedia</h3>
+                <p className="l-section-p">What our multimedia services entails </p>
             </div>
             <div className="l-section-content">
                 <div className="l-content-content">
                     <p className="l-content-p">
-                        To give our clients the flexibility to meet their custom logistics needs at the most competitive pricing, 
-                        we work with an established network of over ten different ocean carrier partners. Choose either FCL or LCL service 
-                        with a wide selection of air or ocean carriers. We constantly track the shipment while it transit, 
-                        so you know where it is at all times.
+                        When you mention multimedia services, we will react because we really rock. From videography, photography, 
+                        drone footage to animations and cartoons, we really thrive in this. In a nutshell we do;
                     </p>
                     <ul className="l-content-ul">
                         <li className="l-content-li">
-                            Complete FCL and LCL services
+                            Video Editing
                         </li>
                         <li className="l-content-li">
-                            FCL contract management
+                            Audio/ Music editing
                         </li>
                         <li className="l-content-li">
-                            LCL consolidation / deconsolidation
+                            Photography
                         </li>
                         <li className="l-content-li">
-                            Project cargo services
+                            Video recording
                         </li>
                         <li className="l-content-li">
-                            Oversized cargo services
+                            Aerial and verticle capture and recording/ drone footage
                         </li>
                         <li className="l-content-li">
-                            Garment On Hanger (GOH) services;
+                            Animating 3dmodels / cartoons
                         </li>
                         <li className="l-content-li">
-                            Insurance Services
+                            Video ads editing
                         </li>
                     </ul>
                 </div>
                 <div className="l-content-image">
-                    <img className="l-image" src={Ship} alt="Air plane for logistics"/> 
+                    <img className="l-image" src={Ship} alt="Video editing instrument being operated by tiggerfish"/> 
                 </div>
             </div>
         </div>

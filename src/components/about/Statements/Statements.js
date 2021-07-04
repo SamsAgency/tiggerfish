@@ -13,28 +13,22 @@ const Statements = () => {
                     <div className="statements-content-mission">
                         <h3 className="statements-h3">Mission</h3>
                         <p className="statements-p">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the
-                            1500s, when an unknown printer took a galley of type and scrambled it to
-                            make a type specimen book. 
+                            Our mission is to be the next level Information technology company that offers
+                            professional and excelent services within East Africa and the Rest of Africa. 
                         </p>
                     </div>
                     <div className="statements-content-mission">
                         <h3 className="statements-h3">Achievements</h3>
                         <p className="statements-p">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the
-                            1500s, when an unknown printer took a galley of type and scrambled it to
-                            make a type specimen book. 
+                            We have worked with over seventeen clients, build several Software as a ServiceBanner
+                            application, lots of graphic design tasks and twenty three cross-platform mobile applications
                         </p>
                     </div>
                     <div className="statements-content-mission">
                         <h3 className="statements-h3">Vision</h3>
                         <p className="statements-p">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the
-                            1500s, when an unknown printer took a galley of type and scrambled it to
-                            make a type specimen book. 
+                            Our vision is to be the leading Information Technology Company in East Africa and the
+                            Rest of Africa
                         </p>
                     </div>
                 </div>

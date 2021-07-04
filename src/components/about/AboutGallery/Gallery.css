@@ -33,6 +33,13 @@
     font-family: 'Dosis', sans-serif
 }
 
+.gallery-headers{
+    color: #375ba9;
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif
+
+}
+
 .gallery-p{
     font-family: Monda;
 }

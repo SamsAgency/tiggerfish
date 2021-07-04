@@ -1,7 +1,8 @@
 import React from 'react'
 import "./WelcomeAdventure.css"
-import greece from "../../../assets/boat.jpg"
-import maldives from "../../../assets/image (8).jpg"
+import greece from "../../../assets/game-potrait.jpg"
+import maldives from "../../../assets/camera.jpg"
+import { Link } from 'react-router-dom'
 
 function WelcomeAdventure() {
     return (
@@ -25,15 +26,15 @@ function WelcomeAdventure() {
                     </h2>
                     <hr />
                     <p className="welcomehoteltext">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut egestas diam. Cras at gravida diam. 
-                        Suspendisse tempor euismod ullamcorper. Quisque ac laoreet ligula, at aliquam diam. 
-                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                        Tiggerfish is the best information technology and web design company in Kenya that provides 
+                        information technology (IT) solutions, products and services using ultra-modern technologies. 
+                        Our capacities involve web design & development, graphic designs and 3D modelling & rendering. 
+                        We are built in trust, team work, professionalism, creativity, problem solving and greatness. 
                     </p>
                 </div>
-                <button className="welcomehotelbutton">
+                <Link to="/contact" className="welcome-about-button">
                     Learn more
-                </button>
+                </Link>
             </div>
         </div>
     )

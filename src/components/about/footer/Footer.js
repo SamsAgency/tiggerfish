@@ -1,6 +1,7 @@
-import { faTruckMoving, faMapMarker, faPhoneSquareAlt, faEnvelopeSquare, faClock} from '@fortawesome/free-solid-svg-icons'
+import {  faMapMarker, faPhoneSquareAlt, faEnvelopeSquare, faClock} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faInstagram, faLinkedinIn, faTwitter} from '@fortawesome/free-brands-svg-icons';
+import logo from '../../../assets/tigerfish logo.png'
 import React from 'react'
 import { NavHashLink as Link } from 'react-router-hash-link'
 import './Footer.css'
@@ -11,7 +12,7 @@ const Footer = () => {
             <div className="the-footer">
                 <div className="footer-left">
                     <div className="footer-logo">
-                        <FontAwesomeIcon icon={faTruckMoving} size="4x"/> 
+                        <img className="the-footer-logo" src={logo} alt="tiggerfish ltd logo"/>
                         <h3 className="footer-h3">Tiggerfish Technology</h3>
                     </div>
                     <div className="footer-socials">
@@ -41,7 +42,7 @@ const Footer = () => {
                         <li className="footer-middle-li"> <FontAwesomeIcon icon={faPhoneSquareAlt} /> +254 775 553 589</li>
                         <li className="footer-middle-li"> <FontAwesomeIcon icon={faEnvelopeSquare} /> info@tiggerfish.com</li>
                         <li className="footer-middle-li"> <FontAwesomeIcon icon={faEnvelopeSquare} /> marketing@tiggerfish.com</li>
-                        <li className="footer-middle-li"> <FontAwesomeIcon icon={faEnvelopeSquare} /> thetigerfish@gmail.com</li>
+                        <li className="footer-middle-li"> <FontAwesomeIcon icon={faEnvelopeSquare} /> tigerfish254@gmail.com</li>
                         <li className="footer-middle-li"> <FontAwesomeIcon icon={faClock} /> Always Open</li>
                     </ul>
                 </div><hr/>

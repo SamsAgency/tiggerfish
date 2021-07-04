@@ -1,12 +1,13 @@
 .footer{
     min-height: 65vh;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.651), rgba(0, 0, 0, 0.877)), url(../../../assets/image\ \(6\).jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.651), rgba(0, 0, 0, 0.877)), url(../../../assets/code.jpg);
     background-attachment: fixed;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 100vw;
+    width: 100vw !important;
+    /* max-width: 100px; */
 }
 
 .the-footer{
@@ -30,6 +31,15 @@
     display : flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.the-footer-logo{
+    width: 70px;
+    height: 70px;
+    padding: 4px;
+    background-color: white;
+    border-radius: 50%;
+    filter: drop-shadow(0px 3px 5px #ccc)
 }
 
 .footer-socials{

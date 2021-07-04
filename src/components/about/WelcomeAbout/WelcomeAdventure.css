@@ -85,24 +85,17 @@
     margin-left: 5px;
 }
 
-.welcomehotelbutton{
-    width: 200px;
-    font-size: 18px;
-    line-height: 0%;
-    padding: 20px;
-    color: #375ba9;
-    border-color: #375ba9;
-    border-radius: 20px;
-    background: transparent;
-    margin-left: 10px;
-}
-
-.welcomehotelbutton:hover{
+.welcome-about-button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
     background-color: #375ba9;
-    border-color: #375ba9;
-    color: white;
-    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.795);
-    cursor: pointer;
+    color: aliceblue;
+    width: 150px;
+    border-radius: 5px;
+    filter: drop-shadow(0px 3px 5px #ccc);
 }
 
 @media screen and (max-width: 1000px){
@@ -158,11 +151,6 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-    .welcomehotelbutton{
-        position: relative;
-        top: 25px;
-    }
-
 }
 
 @media screen and (max-width: 900px){

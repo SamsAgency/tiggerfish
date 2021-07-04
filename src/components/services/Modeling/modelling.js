@@ -1,5 +1,5 @@
 import React from 'react'
-import Plane from '../../../assets/image (7).jpg'
+import Plane from '../../../assets/3d model.jpg'
 
 const Modelling = () => {
     return (
@@ -10,30 +10,27 @@ const Modelling = () => {
             </div>
             <div className="l-section-content">
                 <div className="l-content-image">
-                    <img className="l-image" src={Plane} alt="Air plane for logistics"/> 
+                    <img className="l-image" src={Plane} alt="A 3D model created by tiggerfish limited"/> 
                 </div>
 
                 <div className="l-content-content">
                     <p className="l-content-p">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        Lorem Ipsum has been the industry's standard dummy text ever since the
-                        1500s, when an unknown printer took a galley of type and scrambled it to
-                        make a type specimen book. It has survived not only five centuries, but
-                        also the leap into electronic typesetting, remaining essentially
-                        unchanged. It was popularised in the 1960s with the release of Letraset
-                        sheets containing Lorem Ipsum passages, and more recently with desktop
-                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        When it comes to creating/modeling characters and environment, we do it with passion and as soon as possible.
+                        We design characters that users may use in games, animations etc. We also model architecture construction publications
+                        into a 3D model then rendering it to environment. In a nutshell we do;
                     </p>
                     <ul className="l-content-ul">
                         <li className="l-content-li">
-                            Partnerships with an exclusive network of partners worldwide to offer end to end services
+                            3D character modelling,
                         </li>
                         <li className="l-content-li">
-                            Competitive rates – we utilize hundreds of airline flights daily and you don’t have to be limited 
-                            to designated pickup or delivery times;
+                            3D architecture modeling and rendering
                         </li>
                         <li className="l-content-li">
-                            Door-to-door, Airport-to-Door, Airport-to-Airport;
+                            Landscape modeling and rendering
+                        </li>
+                        <li className="l-content-li">
+                            Game environment modeling
                         </li>
                     </ul>
                 </div>

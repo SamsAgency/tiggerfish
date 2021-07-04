@@ -4,7 +4,7 @@ import logo from '../../assets/tigerfish logo.png'
 import {NavLink, Link} from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faLinkedinIn, faTwitter} from '@fortawesome/free-brands-svg-icons';
-import { faCode, faInfoCircle, faLaptopCode, faPalette, faPallet, faPhotoVideo} from '@fortawesome/free-solid-svg-icons';
+import { faCode, faInfoCircle, faLaptopCode, faPalette, faPhotoVideo} from '@fortawesome/free-solid-svg-icons';
 
 
 const Home = () => {
@@ -15,11 +15,11 @@ const Home = () => {
                     <div className="home-left-content">
                         <div className="home-left-top">
                             <img className="logo" src={logo} alt="tiggerfish logo" />
-                            <h3 className="home-tiggerfish">Tiggerfish || IT company</h3>
+                            <h3 className="home-tiggerfish">Tiggerfish <br/> IT company</h3>
                         </div>
                         <div className="home-middle">
-                            <h2 className="home-middle-title">Lorem ipsum Text</h2>
-                            <p className="home-middle-sub">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                            <h2 className="home-middle-title"> Creativity meets Logic </h2>
+                            <p className="home-middle-sub"> Where Creativity & Logic can be visually presented  </p>
                         </div>
                         <div className="home-bottom">
                             <p className="social-media-legend">For more like and follow us on</p>
@@ -56,10 +56,9 @@ const Home = () => {
                                 <FontAwesomeIcon icon={faLaptopCode} size="2x" color="#375ba9" />
                             </div>
                             <p className="home-right-content-text">
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard 
-                                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type 
-                                specimen book. Dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type 
-                                specimen book.
+                                We Tiggerfish LTD are information technology company in Kenya that provides information technology (IT) solutions, 
+                                products and services using ultra-modern technologies. Our capacities involve web design & development, graphic designs and 3D modelling 
+                                & rendering, video editing and 2D/3D animations/cartoons. 
                             </p>
                                 <Link to="/about" className="default-button-text">
                                     <p>More</p>
@@ -74,27 +73,48 @@ const Home = () => {
                                 <FontAwesomeIcon icon={faCode} size="3x" color="" />
                                 <p className="home-card-top">Programing & Startups</p>
                                 <p className="home-card-content-text">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                    These services include:
                                 </p>
+                                <ul className="card-ul">
+                                    <li className="card-li">Web design & development</li>
+                                    <li className="card-li">Progressive Web Apps</li>
+                                    <li className="card-li">Mobile app development</li>
+                                    <li className="card-li">Desktop development</li>
+                                    <li className="card-li">Game app development</li>
+                                </ul>
                             </div>
                         </div>
                         
                         <div className="home-card2">
                             <div className="home-card-content">
                                 <FontAwesomeIcon icon={faPalette} size="3x"/>
-                                <p className="home-card-top">Graphics & Modelling</p>
+                                <p className="home-card-top">Graphics Designs, Modelling & Rendering</p>
                                 <p className="home-card-content-text">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                    These services include:
                                 </p>
+                                <ul className="card-ul">
+                                    <li className="card-li">Posters, flyers, Bronchures, Business cards</li>
+                                    <li className="card-li">Logo design & Branding</li>
+                                    <li className="card-li">Publications & Magazines</li>
+                                    <li className="card-li">3D Modelling & Rendering </li>
+                                    <li className="card-li">Architectural Modeling & Rendering</li>
+                                </ul>
                             </div>
                         </div>
                         <div className="home-card3">
                             <div className="home-card-content">
                                 <FontAwesomeIcon icon={faPhotoVideo} size="3x"/>
-                                <p className="home-card-top">Video & Animation</p>
+                                <p className="home-card-top">Multimedia services</p>
                                 <p className="home-card-content-text">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                    These services include:
                                 </p>
+                                <ul className="card-ul">
+                                    <li className="card-li">Video Editing</li>
+                                    <li className="card-li">Photo Editing</li>
+                                    <li className="card-li">Cartoon/animation creating</li>
+                                    <li className="card-li">Audio/Music editing</li>
+                                    <li className="card-li">Photography & Video capture</li>
+                                </ul>
                             </div>
                         </div>
 
